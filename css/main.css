@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#main {
+  color: black;
+  padding-top: 15rem;
+  background: none;
+  width: 100%;
+}
+
+img {
+  height: 200px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.icon {
+  height: 100px;
+  margin: 0 10rem;
+}
+
+#right ul {
+  padding-top: 2rem;
+}
+#right ul li {
+  text-align: left;
+}
+#right button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+#right button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+#main-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  width: 100%;
+}
+
+#testimonial-main {
+  padding: 5rem 0;
+  width: 100%;
+}
+
+#testimonial-column {
+  padding: 5rem 0;
+}
+#testimonial-column img {
+  height: 150px;
+  margin: 1rem 2rem;
+}
+#testimonial-column button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+#main-features button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+#main-features button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.container-fluid {
+  padding: 5rem 0;
+}
+
+.accordion {
+  padding: 1rem 0;
+}
+
+#contact {
+  padding: 0;
+}
+#contact input {
+  padding: 15px 100px 0 15px;
+  margin: 5px 0;
+}
+#contact select {
+  padding: 15px 100px 0 15px;
+  margin: 5px 0;
+  background-color: white;
+  opacity: 0.6;
+}
+#contact textarea {
+  width: 90%;
+  margin: 10px 0;
+}
+
+#services {
+  padding: 5rem 0;
+}
+#services .header {
+  font-weight: bold;
+}
+
+.submit {
+  background-color: black;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.submit:hover {
+  background-color: gray;
+  color: black;
+  transition: 0.5s ease;
+}
+
+#footer {
+  background-color: #212529;
+  margin-top: 10rem;
+  height: 40vh;
+  color: white;
+}
+#footer img {
+  height: 50px;
+  margin: 10px 0;
+}/*# sourceMappingURL=main.css.map */
