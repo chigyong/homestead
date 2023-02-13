@@ -47,6 +47,17 @@ img {
         transition: .5s ease;
     }
 }
+#logo-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    img {
+        height: 80px;
+        padding: 0 10px;
+    }
+}
 #main-testimonials {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
     url(../images/bg/bg3.jpg);
@@ -78,6 +89,7 @@ button {
 }
 }
 #main-features {
+    background: none;
     button {
         padding: 10px 15px;
             background-color: black;
