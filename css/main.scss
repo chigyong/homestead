@@ -103,6 +103,15 @@ button {
         transition: .5s ease;
     }
 }
+#main-process {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url(../images/bg/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 100%;
+}
 .container-fluid {
     padding: 5rem 0;
 }
@@ -112,12 +121,12 @@ button {
 #contact {
     padding: 0;
     input {
-        padding: 15px 100px 0 15px;
+        padding: 15px 10px 0 15px;
         margin: 5px 0;
        }
 
     select {
-        padding: 15px 100px 0 15px;
+        padding: 15px 10px 0 15px;
         margin: 5px 0;
         background-color: white;
         opacity: .6;
